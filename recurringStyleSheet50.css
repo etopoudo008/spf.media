@@ -1,0 +1,458 @@
+
+#tableID1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   margin-right: auto;
+   margin-left: auto;
+
+	overflow: scroll;
+	color: gray ;
+  float: right;
+  font-size: 18px;
+  display: block;
+ text-align: left;
+  border: 2px solid #ccc;
+
+ border: 1px solid red;
+  position: absolute;
+  margin-top: 540px;
+
+
+}
+
+#trID{
+   background-color: white; 
+    
+}
+#trID:hover{
+   background-color: "#D5D8DC"; 
+    
+}
+
+
+#tableCheckBox {
+  border: 1px solid red;
+	max-width: 100%;
+  min-width: 1500px;
+  position: absolute;
+	 margin-top: 250px;
+  margin-left: auto;
+  margin-right:auto;
+     width:100%;
+
+}
+
+#tableColorPicker {
+  border: 1px solid red;
+	max-width: 100%;
+  min-width: 1500px;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right:auto;
+   width:100%;
+
+}
+
+
+#tableLandingPage {
+  border: 1px solid red;
+  position: absolute;
+   margin-top: 25px;
+  margin-left: auto;
+  margin-right:auto;
+   width:100%;
+
+}
+
+
+#tableSubmit {
+  border: 1px solid red;
+  position: absolute;
+  margin-top: 360px;
+    margin-left: auto;
+  margin-right:auto;
+   width:100%;
+
+}
+
+
+#tableEmailHeader {
+  border: 1px solid red;
+  position: absolute;
+  margin-top: 355px;
+    margin-left: auto;
+  margin-right:auto;
+     width:100%;
+
+
+}
+
+#tableAction {
+  border: 1px solid red;
+  position: relative;
+
+    margin-left: auto;
+  margin-right:auto;
+     width:100%;
+}
+
+#tableHiddenFields {
+	  border: 1px solid red;
+	  position: absolute;
+	  z-index:-1;
+	
+}
+
+
+.fileUpload {
+    font-family: ‘Arial Black’, Gadget, sans-serif;
+    background:  #C6E2FF;
+   		float:left;
+       font-size: 24px;
+    text-align: center;
+    color: white;
+  width:100px;
+    padding: 24px;
+     cursor: pointer;
+
+	overflow: hidden;
+	position: relative;
+  
+}
+
+
+.fileUpload input.upload {
+    position: absolute;
+    display: block;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index:-1;
+	
+  top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+
+} 
+
+
+
+
+
+
+
+
+
+
+#tableUpload {
+  border: 1px solid red;
+  position: absolute;
+  margin-top: 445px;
+    margin-left: auto;
+  margin-right:auto;
+   width:100%;
+
+}
+
+
+
+#tableTAB {
+font-family: ‘Arial Black’, Gadget, sans-serif;
+max-width: 100%;
+  min-width: 1500px;
+  border-spacing: 0px; 
+   font-size: 24px;
+   font-weight: 900;
+  border: 1px solid red;
+ 
+  position: absolute;
+  margin-top: -10px;
+  width:100%;
+  height: auto;
+  
+
+}
+
+.tdTAB{
+	
+
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+#aTAB{
+    
+       color: #FF269D; 
+   text-decoration:none;
+}
+
+#aTAB:hover{
+    
+        color: rgba(255, 38, 157, .6);
+        text-decoration:none
+}
+
+
+
+
+#tableProfile {
+    font-family: arial, sans-serif;
+   margin-top: -10px;
+    font-weight: 900; 
+  border: 1px solid red;
+  position: absolute;
+    width:100%;
+    background: white;
+    height: 50px;
+	
+
+}
+
+#tdProfile{
+    color: #E6E8FA;
+     width:18%;
+}
+
+
+.tdProfile1{
+
+     text-align: right;
+}
+
+
+.aProfile{
+
+  
+		color: #97FFFF;
+   text-decoration:none
+}
+
+
+.aProfile:hover{
+
+color: #E6E8FA;  
+   text-decoration:none
+}
+
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: relative;
+ 
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 7px ;
+
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    margin-right: 10px;
+
+    text-align: center;
+    
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: rebeccapurple;
+}
+
+
+   .checkbox-custom-label {
+    font-family:arial, sans-serif;
+    color: grey;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label {
+  outline: 1px solid #FFFFFF; /* focus style */
+}
+
+
+
+
+
+
+
+.landing_page_url_not_currently_in_use {
+	
+font-family: ‘Arial Black’, Gadget, sans-serif;
+	
+ font-size:75px;
+font-weight: 900;
+
+	letter-spacing: -.5;
+
+display: block;
+
+padding:32px;
+padding-left:15px;
+
+
+border:3px solid #ccc;
+width:1400px;
+
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 10px;
+ 
+}
+
+
+
+
+
+.table-fields{
+display: block;
+float: center;
+margin-right: auto;
+margin-left: auto;
+width:1600px;
+margin-top: 35px;
+
+
+}
+
+
+
+
+
+
+
+#login {
+display: block;
+margin-top:210px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+width:500px;
+border-radius:10px;
+font-family:arial, sans-serif;
+
+
+
+}
+
+#fileToUpload{
+border: 3px solid #ccc;
+    display: inline-block;
+    padding: 18px 12px;
+    cursor: pointer;
+  }
+
+
+.file-upload{
+border: 3px solid #ccc;
+    display: block;
+      cursor: pointer;
+      padding: 28px 75px
+  }
+
+
+
+
+
+
+
+
+.typeText{
+display: block;
+padding:12px 180px;
+border:3px solid #ccc;
+padding-left:5px;
+font-size:25px;
+color: #ccc;
+margin-bottom: 10px;
+font-family:arial, sans-serif;
+
+}
+
+.typeTextHidden{
+padding:10px 25px;
+border:3px solid #ccc;
+color: #ccc;
+
+}
+
+
+
+
+.typeButton {
+width:100px;
+background-color:#9f9bff;
+color:#fff;
+border:5px solid #9f9bff;
+padding:20px;
+font-size:20px;
+cursor:pointer;
+
+}
+
+
+
+input[type=submit] {
+width:100px;
+background-color:#9f9bff;
+color:#fff;
+border:5px solid #9f9bff;
+padding:20px;
+font-size:20px;
+cursor:pointer;
+
+}
+
+
+
+
+#logout {
+
+float:right;
+padding:20px;
+border: 3px gray
+}
+
+
+
+input::-webkit-input-placeholder {
+    color: red;
+	  font-size:20px;
+    font-weight: bold;
+}
+input:-moz-placeholder {
+    color: red;
+	  font-size:20px;
+    font-weight: bold;
+}
+input:-ms-input-placeholder {
+    color: red;
+	  font-size:20px;
+    font-weight: bold;
+}
+
+
+
